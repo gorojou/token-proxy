@@ -1,4 +1,4 @@
-var json = artifacts.require('../../build/contracts/Proxy.json');
+var json = artifacts.require('../build/contracts/Proxy');
 var contract = require("@truffle/contract");
 var ProxyContract = contract(json);
 //contract('Proxy', ([admin, _]) => {

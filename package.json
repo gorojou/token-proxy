@@ -1,0 +1,28 @@
+{
+  "name": "token-proxy",
+  "version": "1.0.0",
+  "description": "https://eips.ethereum.org/EIPS/eip-1967",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gorojou/token-proxy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gorojou/token-proxy/issues"
+  },
+  "homepage": "https://github.com/gorojou/token-proxy#readme",
+  "dependencies": {
+    "@truffle/contract": "^4.5.8",
+    "@truffle/hdwallet-provider": "^2.0.8",
+    "truffle": "^5.5.13",
+    "web3": "^1.7.3"
+  }
+}
